@@ -6,4 +6,4 @@ read -p "Enter a message for the git commit: " msg
 ## make the commit
 git add .
 git commit -m "$msg"
-git push
+git push --force
